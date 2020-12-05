@@ -10,7 +10,7 @@ export const ContactContainer = styled.div`
 `
 
 export const ContactWrapper = styled.div`
-    max-width: 1000px;
+    max-width: 600px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
@@ -25,7 +25,7 @@ export const ContactWrapper = styled.div`
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        padding: 0 20px;
+        padding: 0 10px;
     }
 `
 
@@ -36,7 +36,7 @@ export const ContactCard = styled.div`
     align-items: center;
     border-radius: 10px;
     height: 200px;
-    padding: 50px;
+    padding: 5px;
     transition: all 0.2s ease-in-out;
 `
 
@@ -58,7 +58,8 @@ export const ContactIcon1 = styled.a`
     text-decoration: none;
 
     @media screen and (max-width: 768px) {
-        font-size: 70px;
+        font-size: 60px;
+        padding: 20px;
     }
 
     &:hover {
@@ -73,7 +74,8 @@ export const ContactIcon2 = styled.a`
     padding: 25px;
 
     @media screen and (max-width: 768px) {
-        font-size: 70px;
+        font-size: 60px;
+        padding: 20px;
     }
 
     &:hover {
@@ -87,7 +89,8 @@ export const ContactIcon3 = styled.a`
     padding: 25px;
 
     @media screen and (max-width: 768px) {
-        font-size: 70px;
+        font-size: 60px;
+        padding: 20px;
     }
     
     &:hover {
